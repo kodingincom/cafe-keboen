@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cocokGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3e2e"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Badge -->
+  <rect x="8" y="8" width="184" height="184" rx="40" fill="url(#cocokGrad)" stroke="#22c55e" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Inner Ring -->
+  <rect x="18" y="18" width="164" height="164" rx="30" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 3" stroke-opacity="0.6"/>
+  
+  <!-- Coffee Bean & Botanical Leaf Leaves Icon -->
+  <g transform="translate(100, 68)">
+    <!-- Central Coffee Bean -->
+    <path d="M-14 -10 C-22 5, -18 20, 0 24 C18 20, 22 5, 14 -10 C6 -24, -6 -24, -14 -10 Z" fill="url(#goldGrad)" />
+    <path d="M-2 -18 Q 4 0, -3 18" stroke="#0f3e2e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left Leaf -->
+    <path d="M-15 -6 C-30 -16, -38 -2, -26 12 C-16 10, -14 0, -15 -6 Z" fill="#4ade80" />
+    <!-- Right Leaf -->
+    <path d="M15 -6 C30 -16, 38 -2, 26 12 C16 10, 14 0, 15 -6 Z" fill="#4ade80" />
+    
+    <!-- Top Tiny Sprout -->
+    <circle cx="0" cy="-22" r="3" fill="#fef08a" />
+  </g>
+  
+  <!-- Brand Text -->
+  <text x="100" y="132" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="22" font-weight="900" letter-spacing="3.5" fill="#ffffff" text-anchor="middle">COCOK</text>
+  <text x="100" y="152" font-family="'Playfair Display', Georgia, serif" font-size="11" font-weight="600" letter-spacing="4" fill="#fbbf24" text-anchor="middle" font-style="italic">COFFEE &amp; CHILL</text>
+  <text x="100" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="500" letter-spacing="1.5" fill="#a7f3d0" text-anchor="middle">TEGAL • EST. 2022</text>
+</svg>

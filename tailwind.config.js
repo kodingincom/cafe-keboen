@@ -8,31 +8,31 @@ export default {
   theme: {
     extend: {
       colors: {
-        nature: {
-          50: '#f4f8f4',
-          100: '#e4f0e5',
-          200: '#cbe2ce',
-          300: '#a3cca8',
-          400: '#75b07e',
-          500: '#4d9357',
-          600: '#3a7744',
-          700: '#2f5f37',
-          800: '#284c2e',
-          900: '#1b3b22',
-          950: '#0e2013',
+        brand: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#14532d',
+          900: '#0f3e2e',
+          950: '#08251b',
         },
-        wood: {
-          50: '#faf6f0',
-          100: '#f4ede1',
-          200: '#e8dac5',
-          300: '#d7c0a1',
-          400: '#c3a17b',
-          500: '#b1875c',
-          600: '#9c6f4b',
-          700: '#80573e',
-          800: '#694735',
-          900: '#462f23',
-          950: '#281a14',
+        sand: {
+          50: '#fdfcf9',
+          100: '#f8f5ee',
+          200: '#eee6d8',
+          300: '#dfd2bd',
+          400: '#cca06c',
+          500: '#b5834b',
+          600: '#9b6c3b',
+          700: '#7c5331',
+          800: '#64432c',
+          900: '#4a3222',
+          950: '#261810',
         },
         amberGlow: {
           400: '#fbbf24',
@@ -41,17 +41,17 @@ export default {
         }
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
         sans: ['"Plus Jakarta Sans"', '"Inter"', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
       },
       boxShadow: {
         'glow': '0 0 25px -5px rgba(245, 158, 11, 0.45)',
-        'glow-green': '0 0 25px -5px rgba(54, 114, 67, 0.35)',
-        'card-warm': '0 10px 30px -10px rgba(47, 31, 24, 0.08)',
+        'glow-emerald': '0 0 25px -5px rgba(22, 163, 74, 0.35)',
+        'card-soft': '0 10px 30px -10px rgba(0, 0, 0, 0.07)',
+        'float': '0 20px 40px -15px rgba(15, 62, 46, 0.2)',
       },
     },
   },
   plugins: [],
 }
-
-

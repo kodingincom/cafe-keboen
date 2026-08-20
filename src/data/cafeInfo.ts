@@ -1,45 +1,71 @@
 export const CAFE_INFO = {
-  name: "Café Keboen",
-  tagline: "Sensasi Ngopi & Moci Syahdu di Tengah Hijau Rimbun Kebun Bogares",
-  shortDesc: "Kafe bernuansa alam terbuka di Desa Bogares Lor, Pangkah, Tegal. Memadukan asrinya kebun jambu madu Deli Hijau, saung segitiga bambu, gemerlap lampu malam yang cozy, dan kelezatan hidangan lokal khas Tegal.",
+  name: "Cocok Coffee & Chill",
+  brandShort: "Cocok Coffee",
+  tagline: "Your Aesthetic Daily Coffee & Chill Sanctuary in Tegal",
+  shortDesc: "Tempat nongkrong modern minimalis di Jl. Cik Ditiro, Dukuhturi, Tegal. Menghadirkan 3 pilihan zona: Indoor AC Lounge bernuansa warm arch lighting yang tenang untuk WFC/meeting, Outdoor Terrace berkanopi sejuk dengan mural 'Positive Vibes', serta Rooftop Santorini dengan dinding lengkung putih yang sangat instagrammable.",
   location: {
-    address: "Jl. Permata Indah, Perumahan Permata Indah, Kepatihan, Bogares Lor, Kec. Pangkah, Kabupaten Tegal, Jawa Tengah 52471",
-    district: "Bogares Lor, Kec. Pangkah",
-    regency: "Kabupaten Tegal, Jawa Tengah",
-    googleMapsUrl: "https://maps.google.com/?q=Cafe+Keboen+Bogares+Lor+Pangkah+Tegal",
-    embedMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.306132717912!2d109.1558231!3d-6.9731456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbe53e34b9b91%3A0x1d5854ad90240d9b!2sBogares%20Lor%2C%20Pangkah%2C%20Tegal%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+    address: "Jl. Cik Ditiro, Jumumbang, Kepandean, Kec. Dukuhturi, Kota Tegal, Jawa Tengah 52133",
+    district: "Kepandean, Kec. Dukuhturi",
+    regency: "Kota Tegal / Kab. Tegal, Jawa Tengah",
+    googleMapsUrl: "https://maps.google.com/?q=Cocok+Coffee+Jl.+Cik+Ditiro+Dukuhturi+Tegal",
+    embedMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.916843469085!2d109.1158428!3d-6.8993214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb9b5d4bc63b1%3A0x8e87bfdfb2713f04!2sJl.%20Teuku%20Cik%20Ditiro%2C%20Dukuhturi%2C%20Tegal%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
   },
   contact: {
-    whatsapp: "6282134544262",
-    whatsappDisplay: "0821-3454-4262",
-    instagram: "@cafekeboen.tegal",
+    whatsapp: "6288226493010",
+    whatsappDisplay: "0882-2649-3010",
+    instagram: "@cocokcoffee.id",
     instagramUrl: "https://instagram.com",
-    tiktok: "@cafekeboentegal",
-    email: "kontak.cafekeboen@gmail.com",
+    tiktok: "@cocokcoffee.tegal",
+    email: "cocokcoffeetegal@gmail.com",
   },
   hours: {
-    weekday: "16.00 - 00.00 WIB",
-    weekend: "16.00 - 00.30 WIB",
-    liveMusic: "Setiap Sabtu & Minggu Malam (19.30 - 23.00 WIB)",
-    openHour: 16,
-    closeHour: 24, // midnight
+    weekday: "10.00 - 23.00 WIB",
+    weekend: "10.00 - 23.30 WIB",
+    openHour: 10,
+    closeHour: 23,
   },
+  ambienceZones: [
+    {
+      id: "indoor-lounge",
+      title: "Indoor AC Lounge & Work Space",
+      desc: "Ruang ber-AC dengan pencahayaan warm arch wall LED, kursi rotan modern, stop kontak di setiap meja, dan WiFi berkecepatan tinggi yang sangat ideal untuk WFC (Work From Cafe) atau rapat santai.",
+      image: "/images/cocok-indoor-lounge.png"
+    },
+    {
+      id: "outdoor-terrace",
+      title: "Outdoor Terrace 'Positive Vibes'",
+      desc: "Area outdoor berkanopi kain peneduh dengan semilir angin sejuk, mural estetik tropis, meja kayu & bangku semen industrial, serta colokan listrik di setiap meja untuk nongkrong bebas gerah.",
+      image: "/images/cocok-outdoor-terrace.png"
+    },
+    {
+      id: "white-arch-rooftop",
+      title: "Santorini-Style White Arch Rooftop",
+      desc: "Area terbuka berkonsep Mediterania modern dengan dinding lengkung putih berlubang ceruk, lantai batu kerikil, dan pergola segitiga minimalis yang super instagrammable.",
+      image: "/images/cocok-white-arch-rooftop.png"
+    },
+    {
+      id: "facade-night",
+      title: "Facade Arsitektur Lengkung Emerald",
+      desc: "Tampak depan kafe dengan gerbang lengkung hijau zamrud dan kisi-kisi kayu modern yang memancarkan kilau hangat saat malam hari tiba.",
+      image: "/images/cocok-facade-night.png"
+    }
+  ],
   features: [
     {
-      title: "Nuansa Kebun Asri",
-      desc: "Berada langsung di area perkebunan jambu Madu Deli Hijau dengan pepohonan rindang dan udara segar."
+      title: "3 Pilihan Zona Tempat Duduk",
+      desc: "Pilih suasana favorit Anda: Indoor AC yang tenang, Outdoor Terrace berkanopi teduh, atau Rooftop estetik bergaya Santorini."
     },
     {
-      title: "Saung Segitiga Bambu",
-      desc: "Gazebo estetik bergaya segitiga rustic untuk nongkrong santai bersama sahabat atau keluarga."
+      title: "Ramah untuk WFC & Bekerja",
+      desc: "Dilengkapi WiFi cepat, stop kontak di setiap meja (indoor & outdoor), dan kursi ergonomis yang nyaman berjam-jam."
     },
     {
-      title: "Tradisi Teh Poci Tegal",
-      desc: "Nikmati aroma teh melati khas Tegal yang disajikan dengan poci tanah liat (gerabah) dan gula batu."
+      title: "Kopi & Hidangan Berkualitas",
+      desc: "Menyajikan artisan espresso blend, aneka rice bowl lezat, camilan platter komplit, dan pastry manis dengan kemasan higienis bertanda 'We Serve With Love'."
     },
     {
-      title: "Lampu Malam & Live Acoustic",
-      desc: "Pencahayaan warm fairy lights yang romantis ditemani penampilan akustik live di akhir pekan."
+      title: "Spot Foto Instagrammable",
+      desc: "Desain arsitektur modern minimalis dengan aksen arch lighting, mural tropis, dan dinding putih lengkung estetik."
     }
   ]
 };

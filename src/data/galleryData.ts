@@ -3,66 +3,58 @@ import { GalleryItem } from '../types';
 export const INITIAL_GALLERY: GalleryItem[] = [
   {
     id: 'gal-1',
-    title: 'Gemerlap Lampu Malam & Saung Segitiga',
+    title: 'Facade Lengkung Hijau Zamrud & Warm Night Lighting',
     category: 'suasana',
-    image: '/images/suasana-malam-lampu.png',
-    caption: 'Pemandangan malam hari dengan jajaran lampu gantung hangat dan saung segitiga bambu yang nyaman di atas hamparan kerikil.',
-    badge: 'Ikonik Malam'
+    image: '/images/cocok-facade-night.png',
+    caption: 'Gerbang arsitektur lengkung megah berwarna emerald green dengan aksen kayu vertikal dan jendela kaca berpendar hangat di malam hari.',
+    badge: 'Ikonik Facade'
   },
   {
     id: 'gal-2',
-    title: 'Live Acoustic Music Akhir Pekan',
-    category: 'event',
-    image: '/images/live-music-akustik.png',
-    caption: 'Panggung akustik bambu beratap rumbia yang menghadirkan alunan musik syahdu setiap Sabtu & Minggu malam.',
-    badge: 'Live Acoustic'
+    title: 'Indoor AC Lounge & Warm Arch Wall Lighting',
+    category: 'saung', // mapped to indoor/special zone
+    image: '/images/cocok-indoor-lounge.png',
+    caption: 'Interior ber-AC yang mewah dan tenang dengan pencahayaan lengkung dinding LED, kursi anyaman rotan modern, dan lantai ubin vintage estetik untuk WFC.',
+    badge: 'Area WFC / AC'
   },
   {
     id: 'gal-3',
-    title: 'Sore Hari Asri di Bawah Rimbunnya Pohon',
+    title: 'Outdoor Terrace & Mural "Positive Vibes"',
     category: 'suasana',
-    image: '/images/suasana-kebun-siang.png',
-    caption: 'Suasana santai sore hari dengan meja-meja kayu di bawah pepohonan rindang dan udara terbuka yang sejuk.',
-    badge: 'Suasana Sore'
+    image: '/images/cocok-outdoor-terrace.png',
+    caption: 'Area outdoor berkanopi teduh dengan deretan meja kayu, kipas angin gantung, stop kontak tiap meja, dan mural tropis bertuliskan Positive Vibes.',
+    badge: 'Outdoor Cozy'
   },
   {
     id: 'gal-4',
-    title: 'Pesona Senja Menjelang Malam',
+    title: 'Santorini-Style White Arch Rooftop',
     category: 'suasana',
-    image: '/images/suasana-senja.png',
-    caption: 'Momen magis saat matahari terbenam dan lampu-lampu mulai menyala di antara saung segitiga dan tanaman hias.',
-    badge: 'Golden Hour'
+    image: '/images/cocok-white-arch-rooftop.png',
+    caption: 'Spot Mediterania modern berlatar dinding lengkung putih berlubang ceruk, lantai batu kerikil, dan pergola segitiga minimalis yang super instagrammable.',
+    badge: 'Spot Foto Estetik'
   },
   {
     id: 'gal-5',
-    title: 'Jamuan Meja Kayu: Mendoan, Teh Poci & Ayam Bakar',
+    title: 'Jamuan Signature Cocok Coffee & Chill',
     category: 'kuliner',
-    image: '/images/hidangan-meja-lengkap.png',
-    caption: 'Menu favorit kumpul bersama: Mendoan panas sambal kecap pedas, Teh Poci Tegal, Pisang Cokelat Keju, dan Ayam Bakar lezat.',
-    badge: 'Menu Kumpul'
+    image: '/images/cocok-food-feast.png',
+    caption: 'Sajian lengkap berbalut kertas Cocok: Nasi Tumpeng Mini Ayam Sambal, Crispy Chicken Karage, Pisang Cokelat Strawberry, dan Pancake Keju Melimpah.',
+    badge: 'Signature Feast'
   },
   {
     id: 'gal-6',
-    title: 'Nasi Goreng Spesial Cafe Keboen',
+    title: 'Aneka Rice Bowl, Pisang Aroma & Combo Snack Platter',
     category: 'kuliner',
-    image: '/images/nasi-goreng-spesial.png',
-    caption: 'Nasi goreng racikan khas dengan telur, bumbu gurih aroma smoky, kerupuk renyah, dan lalapan segar.',
-    badge: 'Best Seller'
+    image: '/images/cocok-snacks-bowls.png',
+    caption: 'Rice Bowl Ayam Gurih Telur Orak-Arik, Lumpia Pisang Cokelat Lumer (Pisang Aroma), Platter Kentang Sosis Nugget Samosa, dan Iced Coffee Segar.',
+    badge: 'Best Seller Snack'
   },
   {
     id: 'gal-7',
-    title: 'Tradisi Moci: Teh Poci Gerabah Asli Tegal',
-    category: 'kuliner',
-    image: '/images/teh-poci-tegal.png',
-    caption: 'Disajikan dalam poci dan cangkir tanah liat tradisional lengkap dengan gula batu wangi melati mantap (WASGITEL).',
-    badge: 'Khas Tegal'
-  },
-  {
-    id: 'gal-8',
-    title: 'Saung Segitiga & Area Lesehan Santai',
-    category: 'saung',
-    image: '/images/suasana-malam-lampu.png',
-    caption: 'Gazebo bambu dengan pencahayaan hangat, ideal untuk nongkrong berdua, reuni, maupun kumpul keluarga.',
-    badge: 'Spot Favorit'
+    title: 'Suasana Sejuk Outdoor Canopy Siang Hari',
+    category: 'suasana',
+    image: '/images/cocok-outdoor-day.png',
+    caption: 'Pemandangan siang hari dengan semilir angin terbuka, kanopi kanvas peneduh terik matahari, dan tanaman hias hijau yang menyegarkan mata.',
+    badge: 'Chill Outdoor'
   }
 ];

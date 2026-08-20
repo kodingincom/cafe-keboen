@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { SuasanaShowcase } from './components/SuasanaShowcase';
 import { MenuSection } from './components/MenuSection';
-import { LiveMusicSection } from './components/LiveMusicSection';
+import { WFCExperienceSection } from './components/WFCExperienceSection';
 import { GallerySection } from './components/GallerySection';
 import { FacilitiesSection } from './components/FacilitiesSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
@@ -21,7 +21,6 @@ export function App() {
   const [galleryList, setGalleryList] = useState<GalleryItem[]>(INITIAL_GALLERY);
   const [isOrderDrawerOpen, setIsOrderDrawerOpen] = useState<boolean>(false);
   const [lightboxItem, setLightboxItem] = useState<GalleryItem | null>(null);
-  const [nightMode, setNightMode] = useState<boolean>(true); // default to romantic night lights
 
   // Cart Handlers
   const handleAddToCart = (item: MenuItem) => {
@@ -78,8 +77,8 @@ export function App() {
   };
 
   return (
-    <div className={`min-h-screen flex flex-col ${nightMode ? 'night-ambience' : ''}`}>
-      {/* Navigation */}
+    <div className="min-h-screen flex flex-col bg-[#fcfbf9] text-stone-900">
+      {/* Navigation Header */}
       <Navbar
         cartCount={totalCartCount}
         onOpenCart={() => setIsOrderDrawerOpen(true)}
@@ -89,14 +88,13 @@ export function App() {
       <main className="flex-grow">
         {/* 1. Hero Section */}
         <Hero
-          nightMode={nightMode}
           onExploreMenu={scrollToMenu}
         />
 
-        {/* 2. About Section: Story of Orchard & Rustic Design */}
+        {/* 2. About Section: Story of Cocok Coffee & Multi-Zone Concept */}
         <About />
 
-        {/* 3. Suasana Showcase: Interactive Time-of-Day Transition */}
+        {/* 3. Zone Showcase: Interactive 4 Seating Zones */}
         <SuasanaShowcase
           onOpenImageModal={handleOpenImageDirect}
         />
@@ -109,8 +107,8 @@ export function App() {
           onOpenCart={() => setIsOrderDrawerOpen(true)}
         />
 
-        {/* 5. Live Acoustic Music Section */}
-        <LiveMusicSection
+        {/* 5. WFC & Indoor AC Experience Spotlight */}
+        <WFCExperienceSection
           onOpenImageModal={handleOpenImageDirect}
         />
 
