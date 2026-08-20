@@ -51,11 +51,11 @@ export const Navbar: React.FC<NavbarProps> = ({
         
         {/* Brand Logo & Name */}
         <a href="#hero" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white p-1 shadow-md group-hover:scale-105 transition-transform duration-300 flex items-center justify-center overflow-hidden border border-emerald-400/30">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-white p-0.5 shadow-md group-hover:scale-105 transition-transform duration-300 flex items-center justify-center overflow-hidden border-2 border-amber-400/60">
             <img 
-              src="/images/logo.svg" 
+              src="/images/logo.png" 
               alt="Logo Cocok Coffee & Chill" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <div className="flex flex-col">

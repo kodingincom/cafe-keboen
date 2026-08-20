@@ -16,11 +16,11 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Bio */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-white p-1 flex items-center justify-center border border-emerald-400/30 shadow-md">
+              <div className="w-12 h-12 rounded-full bg-white p-0.5 flex items-center justify-center border-2 border-amber-400/60 shadow-md overflow-hidden">
                 <img 
-                  src="/images/logo.svg" 
+                  src="/images/logo.png" 
                   alt="Logo Cocok Coffee & Chill" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div className="flex flex-col">
